@@ -52,4 +52,6 @@
  
 </td>
 </table>
- 
+
+## 디자인 그룹화
+![Image](https://github.com/user-attachments/assets/e803bccf-d24f-4b53-9189-30fd23e1362e)
