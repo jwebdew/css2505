@@ -3,6 +3,8 @@
 
 ## 1일차
 #### 1. 예제 텍스트 
+![Image](https://github.com/user-attachments/assets/ad918bdf-8065-42ed-9002-c47795a1aaab)
+
 슬림 버니 쉐이크<br />
 이럴 때 드세요!
 - 간편하고 맛있게 체중  조절을 하고 싶을 때
