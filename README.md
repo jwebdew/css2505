@@ -3,11 +3,14 @@
 
 ## 1일차
 #### 1. 예제 텍스트 
-![Image](https://github.com/user-attachments/assets/ad918bdf-8065-42ed-9002-c47795a1aaab)
-
+<div class="item-flex"  style="display:flex">
+  <img src="https://github.com/user-attachments/assets/ad918bdf-8065-42ed-9002-c47795a1aaab" />
+<div>
 슬림 버니 쉐이크<br />
 이럴 때 드세요!
 - 간편하고 맛있게 체중  조절을 하고 싶을 때
 - 바쁜 일상 속, 규칙적인 식단 관리가 필요할 때
 - 운동 전, 후 단백질 보충이 필요할 때
 - 맛 없는 식단에 질렸을 때
+</div>
+</div>
