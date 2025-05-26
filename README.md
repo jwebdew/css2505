@@ -23,9 +23,11 @@
 
 <table>
  <td>
-  <img src="https://github.com/user-attachments/assets/168f57e3-50eb-4bf2-bd36-d9da77e8d6d7"  style="width: 400px; height: auto"/>
+  <img src="https://github.com/user-attachments/assets/168f57e3-50eb-4bf2-bd36-d9da77e8d6d7"  style="width: 800px; height: auto"/>
  </td>
- <td><img src="https://github.com/user-attachments/assets/38e01f20-d43e-4a21-a663-280a819d776b"  style="width: 400px; height: auto"/></td>
+ <td>
+  <img src="https://github.com/user-attachments/assets/38e01f20-d43e-4a21-a663-280a819d776b"  style="width: 800px; height: auto"/>
+ </td>
 <td>
  <div>
   <p>POINT 01</p>
