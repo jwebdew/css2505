@@ -3,7 +3,7 @@
 
 ## 2일차
 
-#### 2. 예제 텍스트 + 이미지
+#### 1. 예제 텍스트 + 이미지
 <table>
  <td>
   <img src="https://github.com/user-attachments/assets/168f57e3-50eb-4bf2-bd36-d9da77e8d6d7"  style="width: 800px; height: auto"/>
