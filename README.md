@@ -35,6 +35,9 @@
 </td>
 </table>
 
+#### 2. 예제 컨텐츠 조합
+![Image](https://github.com/user-attachments/assets/91daf206-03f1-4a26-939d-dee12929ca52)
+
 
 ## 1일차
 #### 1. 예제 텍스트 
