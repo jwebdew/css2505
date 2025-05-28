@@ -1,5 +1,5 @@
 # css2505
-재직자 css 20250526 - 20250702 13일 39시간
+재직자 css 20250526 - 20250702 13일 39시간<br />
 https://www.figma.com/design/XXjQXdwGdBxL7Q5iHSPLYP/css-%EC%9E%85%EB%AC%B8-%EC%98%88%EC%A0%9C?node-id=2-6&p=f&t=5qlDXpEZ9fK7IhyF-0
 
 ## 2일차
