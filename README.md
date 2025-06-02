@@ -36,8 +36,22 @@ https://www.figma.com/design/XXjQXdwGdBxL7Q5iHSPLYP/css-%EC%9E%85%EB%AC%B8-%EC%9
 </td>
 </table>
 
-####1번과 이어서 추가할 내용
+#### 1번과 이어서 추가할 내용
+<table>
+<td><img src="https://github.com/user-attachments/assets/91daf206-03f1-4a26-939d-dee12929ca52" style="width: 400px; height: auto" /></td>
 
+<td>
+<div>
+   <p>Earl Gray</p>
+ <h4>얼그레이 시럽</h4>
+ <p>베르가못향의 얼그레이 홍차와 대체 감미료의 만남으로 음료의 맛과 향을 극강으로 끌어올려줍니다.</p>
+
+ <p>Mojito</p>
+ <h4>모히또 시럽</h4>
+ <p>이탈리아산 라임과 민트의 상큼함과 청량감은 살리고 달콤함을 더했습니다.</p>
+  <div>
+</td>
+</table>
 
 #### 2. 예제 컨텐츠 조합
 ![Image](https://github.com/user-attachments/assets/91daf206-03f1-4a26-939d-dee12929ca52)
