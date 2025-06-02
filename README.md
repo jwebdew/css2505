@@ -37,8 +37,9 @@ https://www.figma.com/design/XXjQXdwGdBxL7Q5iHSPLYP/css-%EC%9E%85%EB%AC%B8-%EC%9
 </table>
 
 #### 1번과 이어서 추가할 내용
+ 
 <table>
-<td><img src="https://github.com/user-attachments/assets/91daf206-03f1-4a26-939d-dee12929ca52" style="width: 400px; height: auto" /></td>
+<td><img src="https://github.com/user-attachments/assets/ac3427b8-d169-45cd-9294-0762f5403ab9" style="width: 400px; height: auto" /></td>
 
 <td>
 <div>
