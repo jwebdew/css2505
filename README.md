@@ -2,6 +2,10 @@
 재직자 css 20250526 - 20250702 13일 39시간<br />
 https://www.figma.com/design/XXjQXdwGdBxL7Q5iHSPLYP/css-%EC%9E%85%EB%AC%B8-%EC%98%88%EC%A0%9C?node-id=2-6&t=KR9VVL1x4RCP66Tw-1
 
+## 4일차
+#### 1. 예제 컨텐츠 조합
+![Image](https://github.com/user-attachments/assets/91daf206-03f1-4a26-939d-dee12929ca52)
+
 ## 3일차
 
 #### 1. 예제 텍스트 + 이미지
@@ -53,10 +57,6 @@ https://www.figma.com/design/XXjQXdwGdBxL7Q5iHSPLYP/css-%EC%9E%85%EB%AC%B8-%EC%9
   <div>
 </td>
 </table>
-
-#### 2. 예제 컨텐츠 조합
-![Image](https://github.com/user-attachments/assets/91daf206-03f1-4a26-939d-dee12929ca52)
-
 
 ## 2일차
     태그 : ol ul li, span, a, img
