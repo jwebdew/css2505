@@ -2,6 +2,13 @@
 재직자 css 20250526 - 20250702 13일 39시간<br />
 https://www.figma.com/design/XXjQXdwGdBxL7Q5iHSPLYP/css-%EC%9E%85%EB%AC%B8-%EC%98%88%EC%A0%9C?node-id=2-6&t=KR9VVL1x4RCP66Tw-1
 
+## 5일차 
+position:absolute / position:relative 필수
+
+![Image](https://github.com/user-attachments/assets/c7246e71-61a1-47f0-86b5-f1db06ffbdc1)
+
+![Image](https://github.com/user-attachments/assets/607ca4a3-e455-4d04-9c2f-0832c64ae748)
+
 ## 4일차
 #### 1. 예제 컨텐츠 조합
 ![Image](https://github.com/user-attachments/assets/91daf206-03f1-4a26-939d-dee12929ca52)
