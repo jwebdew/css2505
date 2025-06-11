@@ -3,7 +3,7 @@
 https://www.figma.com/design/XXjQXdwGdBxL7Q5iHSPLYP/css-%EC%9E%85%EB%AC%B8-%EC%98%88%EC%A0%9C?node-id=2-6&t=KR9VVL1x4RCP66Tw-1
 
 ## 6일차
-display / position 사용
+display: flex / position:relative, position: absolute 사용
 
 그라데이션 : 그라디언트.io https://cssgradient.io/
 
