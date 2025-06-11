@@ -2,6 +2,13 @@
 재직자 css 20250526 - 20250702 13일 39시간<br />
 https://www.figma.com/design/XXjQXdwGdBxL7Q5iHSPLYP/css-%EC%9E%85%EB%AC%B8-%EC%98%88%EC%A0%9C?node-id=2-6&t=KR9VVL1x4RCP66Tw-1
 
+## 6일차
+display / position 사용
+
+그라데이션 : 그라디언트.io https://cssgradient.io/
+
+![Image](https://github.com/user-attachments/assets/8d5d613b-39cb-4c71-911c-38076258315c)
+
 ## 5일차 
 position:absolute / position:relative 필수
 
