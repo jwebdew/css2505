@@ -7,7 +7,7 @@ display / position 사용
 
 그라데이션 : 그라디언트.io https://cssgradient.io/
 
-![Image](https://github.com/user-attachments/assets/8d5d613b-39cb-4c71-911c-38076258315c)
+![Image](https://github.com/user-attachments/assets/da26b0ec-5d8c-42e5-b47d-5853fcf9e0a7)
 
 ## 5일차 
 position:absolute / position:relative 필수
