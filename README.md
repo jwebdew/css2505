@@ -2,6 +2,8 @@
 재직자 css 20250526 - 20250702 13일 39시간<br />
 https://www.figma.com/design/XXjQXdwGdBxL7Q5iHSPLYP/css-%EC%9E%85%EB%AC%B8-%EC%98%88%EC%A0%9C?node-id=2-6&t=KR9VVL1x4RCP66Tw-1
 
+https://downgit.github.io/#/home
+
 ## 6일차
 display: flex / position:relative, position: absolute 사용
 
