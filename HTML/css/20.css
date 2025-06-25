@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  color: rebeccapurple;
+}
+.section-01 {
+  background: url(../img/image-4.jpg) center center / cover no-repeat;
+  padding: 200px 0; 
+}
+.section-01 .inner {
+  width: 1400px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+}

@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.list .item {
+  width: 500px;
+  border: 1px solid #000;
+  margin: 40px;
+}
+.list .item:first-child .image img {
+  transform: skewX(15deg);
+}
+.list .item:nth-child(2) .image img {
+  transform: skewY(15deg);
+}
+.list .item:nth-child(3):hover .image img {
+  transform: skew(15deg, 360deg);
+}
+
+/* 세번째 item에게 마우스 올렸을 때 img x, y축 기울기 */
+/* transform: skew(15deg, 360deg) */
+
+.list .item .image {
+  height: 500px;
+  overflow: hidden;
+}
+.list .item .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+   transition: all 1s;
+}

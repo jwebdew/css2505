@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>이미지 위에 텍스트</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .box {
+      width: 440px;
+      height: 440px;
+      position: relative;
+    }
+
+    .box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .box .text {
+      position: absolute;
+      left: 32px;
+      bottom: 32px;
+    }
+
+    .list {
+      width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      background-color: aqua;
+      justify-content: space-between;
+    }
+    .list .item {
+      width: 440px;
+      height: 440px;
+      position: relative;
+    }
+    .list .item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .list .item .text {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <img src="img/chris-weiher-C_jcJEalIUY-unsplash.jpg" alt="">
+    <div class="text">
+      <span>갤럭시 팁스</span>
+      <h2>디지털 미술 수업 S펜 하나로 시작</h2>
+    </div>
+  </div><!-- .box end -->
+
+  <div class="list">
+    <div class="item">
+      <img src="img/chris-weiher-C_jcJEalIUY-unsplash.jpg" alt="">
+      <div class="text">
+        <span>갤럭시 팁스</span>
+        <h2>디지털 미술 수업 S펜 하나로 시작</h2>
+      </div><!-- text -->
+    </div><!-- .item end -->
+    
+    <div class="item">
+      <img src="img/chris-weiher-C_jcJEalIUY-unsplash.jpg" alt="">
+      <div class="text">
+        <span>갤럭시 팁스</span>
+        <h2>디지털 미술 수업 S펜 하나로 시작</h2>
+      </div><!-- text -->
+    </div><!-- .item end -->
+
+    <div class="item">
+      <img src="img/chris-weiher-C_jcJEalIUY-unsplash.jpg" alt="">
+      <div class="text">
+        <span>갤럭시 팁스</span>
+        <h2>디지털 미술 수업 S펜 하나로 시작</h2>
+      </div><!-- text -->
+    </div><!-- .item end -->
+
+  </div><!-- .list end -->
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.section-01 {
+  height: 300px;
+  background-color: antiquewhite;
+  background-image: url(../img/image-3.jpg);
+  background-size: contain;
+  /* cover, contain */
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.section-02 {
+  height: 300px;
+  background: url(../img/image-4.jpg) center center / cover no-repeat;
+  /* 배경 : 이미지경로 x축위치 y축위치 / 사이즈 반복여부 */
+}
+.section-03 {
+  padding: 200px 0;
+  background: url(../img/image-5.jpg) center center / cover no-repeat fixed;
+  /* background-attachment: fixed;   */
+}

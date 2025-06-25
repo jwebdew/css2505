@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>플렉시블박스</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      list-style: none;
+    }
+
+    div {
+      background-color: aquamarine;
+      margin: 50px;
+    }
+    div ul {
+      background-color: rgb(255, 214, 161);
+      border: 1px solid black;
+    }
+    div ul li {
+      background-color: yellow;
+      border: 1px solid red;
+    }
+    .flex-01 ul {
+      display: flex;
+      justify-content: space-between;
+      /* space-between
+      center 
+      space-around
+      space-evenly
+      flex-end
+      flex-start(기본값) alt + shift + a*/
+    }
+    .flex-02 ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+     /*  center
+      flex-end
+      flex-start
+      stretch (기본값) */
+      
+    }
+    .flex-02 ul li:first-child {
+      height: 300px;
+    }
+    .flex-02 ul li:nth-child(2) {
+      height: 200px;
+    }
+    .flex-02 ul li:nth-child(3) {
+      /* height: 100px; */
+    }
+    .flex-03 ul {
+      height: 300px;
+      display: flex;
+      flex-wrap: wrap; /* 넘치는 자식들 줄바꿈 */
+      align-content: flex-start;
+      /* flex-start
+      space-between
+      center
+      flex-end
+      space-around
+      space-evenly
+      stretch (기본값) */
+    }
+    .flex-03 ul li {
+      width: 100%;
+    }
+
+    .flex-04 ul {
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      /* row (기본값)
+      column
+      row-reverse
+      column-reverse */
+      justify-content: flex-end;
+    }
+    .flex-05 ul {
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 20px;   
+      column-gap: 50px;
+    }
+    .flex-05 ul li {
+      width: 40%; 
+    }
+    .flex-06 ul {
+      display: flex;
+    }
+    .flex-06 ul li:first-child {
+      order: -1;
+    }
+    .flex-06 ul li:nth-child(2) {
+      order: 2;
+    }
+  </style>
+</head>
+<body>
+  <div class="flex-01">
+    <h1>수평정렬</h1>
+    <ul>
+      <li>아이템 1</li>
+      <li>아이템 2</li>
+      <li>아이템 3</li>
+    </ul>
+  </div><!-- .flex-01 -->
+
+  <div class="flex-02">
+    <h1>수직정렬</h1>
+    <ul>
+      <li>아이템 1</li>
+      <li>아이템 2</li>
+      <li>아이템 3</li>
+    </ul>
+  </div><!-- .flex-02 -->
+
+  <div class="flex-03">
+    <h1>여러줄 수직정렬</h1>
+    <ul>
+      <li>아이템 1</li>
+      <li>아이템 2</li>
+      <li>아이템 3</li>
+    </ul>
+  </div><!-- .flex-03 -->
+
+  <div class="flex-04">
+    <h1>정렬 방향 변경</h1>
+    <ul>
+      <li>아이템 1</li>
+      <li>아이템 2</li>
+      <li>아이템 3</li>
+    </ul>
+  </div><!-- .flex-04 -->
+
+  <div class="flex-05">
+    <h1>아이템 사이 간격 설정</h1>
+    <ul>
+      <li>아이템 1</li>
+      <li>아이템 2</li>
+      <li>아이템 3</li>
+    </ul>
+  </div><!-- .flex-05 -->
+
+  <div class="flex-06">
+    <h1>아이템 순서 변경</h1>
+    <ul>
+      <li>아이템 1</li>
+      <li>아이템 2</li>
+      <li>아이템 3</li>
+    </ul>
+  </div><!-- .flex-06 -->
+</body>
+</html>

@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+.section .inner {
+  width: 1402px;
+  margin: 160px auto;
+}
+.section .inner .list .item {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+/* even 짝수
+    odd 홀수 */
+.section .inner .list .item:nth-child(even) {
+  justify-content: flex-end;
+}
+.section .inner .list .item:nth-child(even) img {
+  order: 1;
+}
+.section .inner .list .item:nth-child(even) .text {
+  text-align: right;
+}
+.section .inner .list .item img {
+  width: 500px;
+  height: 354px;
+  object-fit: cover;
+}
+.section .inner .list .item ul {
+  display: flex;
+}
+.section .inner .list .item:nth-child(even) ul {
+  justify-content: flex-end;
+}

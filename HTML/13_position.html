@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>position</title>
+  <style>
+    * {
+      margin: 0;
+      left: 0;
+    }
+    body {
+      height: 3000px;
+    }
+    .box-01 {
+      background-color: teal;
+      position: relative;
+      height: 200px;
+    }
+    .box-01 p {
+      width: 200px;
+      height: 200px;
+      background-color: tomato;
+      position: absolute;
+      left: 20px; 
+      /* left or right */
+
+      top: 50px;
+      /* top or bottom */
+    }
+
+    .box-02 {
+      width: 500px;
+      height: 500px;
+      background-color: aquamarine;
+      margin: 50px auto;
+      position: relative;
+    }
+    .box-02 p {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      
+    }
+    .box-02 p:nth-child(1) {
+      background-color: red;
+      top: 100px;
+      left: 100px;
+    }
+    .box-02 p:nth-child(2) {
+      background-color: orange;
+      right: 0;
+      top: -100px;
+    }
+    .box-02 p:nth-child(3) {
+      background-color: yellow;
+      right: 0;
+      bottom: 0;
+    }
+    .box-02 p:nth-child(4) {
+      background-color: green;
+      bottom: 0;
+      left: -100px;
+    }
+    .box-02 p:nth-child(5) {
+      background-color: skyblue;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+    }
+    .box-02 p:nth-child(6) {
+      background-color: navy;
+      position: sticky;
+      top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box-01">
+    <p>absolute</p>
+  </div>
+
+  <div class="box-02">
+    <p>1</p>
+    <p>2</p>
+    <p>3</p>
+    <p>4</p>
+    <p>5</p>
+    <p>6</p>
+  </div><!-- "box-02 -->
+</body>
+</html>
