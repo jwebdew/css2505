@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.list .item {
+  width: 15%;
+  background-color: aquamarine;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.list .item div {
+  display: block;
+  padding-bottom: 100%;
+  background-color: blueviolet;
+  position: relative;
+}
+.list .item div span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-02 {
+  margin: 100px 0;
+}
+.list-02 h2 {
+  /* font-size: 100%; => 16px */
+  font-size: 20vw;
+  /* vw => 화면 너비 대응 viewport width
+  vh => 화면 높이 대응 viewport height */
+}
+.list-02 .item {
+  width: 30%;
+}
+.list-02 .item .image {
+  padding-bottom: 100%;
+  background-color: aqua;
+  position: relative;
+}
+.list-02 .item .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

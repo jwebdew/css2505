@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.section-01 .inner {
+  max-width: 1440px;
+  width: 97%;
+  margin: 150px auto;
+}
+.section-01 .inner h2 {
+  font-size: 46px;
+  margin-bottom: 60px;
+}
+.section-01 .inner .list {
+  display: flex;
+  justify-content: space-between;
+}
+.section-01 .inner .list .item {
+  width: 32%;
+  position: relative;
+}
+.section-01 .inner .list .item .image {
+  padding-bottom: 100%;
+  position: relative;
+  /* 정사각형 만들기 */
+}
+.section-01 .inner .list .item .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* 정사각형 만들기 */
+}
+.section-01 .inner .list .item p {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.314);
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.section-01 .inner .list .item:hover p {
+  display: flex;
+}
+
+/* 화면의 크기가 1024px 이하일 때 스타일 */
+@media screen and (max-width: 1024px) {
+  .section-01 .inner h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  /* 이미지 밑에 p태그 배치 */
+  .section-01 .inner .list .item p {
+    display: flex;
+    position: static;/* 초기화 */
+    height: auto;
+    background-color: unset;/* 초기화 */
+    color: #333;
+  }
+}/* 1024 */
